@@ -42,7 +42,6 @@ public class TomarPedido extends Activity implements TextWatcher, OnItemClickLis
     private String idCliente;
     private ListaTest listaProductos;
     private ListView listaProductosListView;
-    private Resultado resultado;
     private NuevoPedido nuevoPedido;
     private EncabezadoPedido encabezadoPedido;
     private Cliente cliente;
