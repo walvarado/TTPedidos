@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <style name="CodeFont_title">
+     	<item name="android:layout_width">fill_parent</item>
+     	<item name="android:textSize">16sp</item>
+     	<item name="android:textColor"> @color/color_title_textview </item>
+     	<item name="android:textStyle"> bold</item>
+     	<item name="android:gravity">center</item>
+     </style>
+     
+     <style name="CodeFont_label">
+     	<item name="android:textSize">15sp</item>
+     	<item name="android:textColor"> @color/color_label_textview </item>
+     	<item name="android:textStyle"> bold</item>
+     </style>
+     <style name="CodeFont_label_value">
+     	<item name="android:textSize">15sp</item>
+     	<item name="android:textColor"> @color/color_label_textview </item>
+     </style>
+     <style name="CodeFont_label_value_dialog">
+     	<item name="android:textSize">15sp</item>
+     	<item name="android:textColor"> @color/color_label__dialog_textview </item>
+     </style>
+     <style name="CodeFont_label_dialog">
+     	<item name="android:textSize">15sp</item>
+     	<item name="android:textColor"> @color/color_label__dialog_textview </item>
+     	<item name="android:textStyle"> bold</item>
+     </style>
+     <style name="CodeFont_label_value_listview_productos">
+     	<item name="android:textSize">15sp</item>
+     	<item name="android:textColor"> @color/color_label_textview </item>
+     </style>
+     <style name="ListView">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:cacheColorHint">#C6FAFD</item>
+    </style>
+    
+     
+</resources>
+ 

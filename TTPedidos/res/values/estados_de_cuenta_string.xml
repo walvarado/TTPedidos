@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--  -->
+    <string name="estados_de_cuenta_titulo_textview">ESTADOS DE CUENTA</string>
+    <string name="estados_de_cuenta_string_saldo_total">SALDO</string>
+    
+    <!-- TABLA DE FACTURAS -->
+    <string name="estados_de_cuenta_mov_documento">DOC</string>
+    <string name="estados_de_cuenta_fecha">FECHA</string>
+    <string name="estados_de_cuenta_total">TOTAL</string>
+    <string name="estados_de_cuenta_abono">ABONO</string>
+    <string name="estados_de_cuenta_saldo">SALDO</string>
+    
+    <!-- TABLA DE DETALLE -->
+    <string name="estados_de_cuenta_detalle_doc">DOCUMENTO</string>
+    <string name="estados_de_cuenta_detalle_saldo">SALDO</string>
+    
+    <string name="estados_de_cuenta_detalle_recibo">RECIBO</string>
+    <string name="estados_de_cuenta_detalle_tipo_pago">TIPO PAGO</string>
+    <string name="estados_de_cuenta_detalle_abono">ABONO</string>
+    <string name="estados_de_cuenta_detalle_fecha">FECHA</string>
+    
+    <!-- DIALOG -->
+    <string name="estados_cuenta_dialog_Total">TOTAL</string>
+    <string name="estados_cuenta_dialog_abono"></string>
+    <string name="estados_de_cuenta_dialog_documento">RECIBO</string>
+    <string name="estados_de_cuenta_detalle_documento">RECIBO</string>
+    
+</resources>

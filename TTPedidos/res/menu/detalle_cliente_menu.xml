@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item 
+        android:id="@+id/detalle_cliente_menu_tomar_pedido_opcion" 
+        android:title="TOMAR PEDIDO"
+        android:icon="@drawable/tomar_pedido"></item>
+    
+    <item 
+        android:id="@+id/detalle_cliente_menu_motivo_nocompra_opcion" 
+        android:title="MOTIVO NO COMPRA"
+        android:icon="@drawable/motivo_no_compra"></item>
+    
+
+</menu>

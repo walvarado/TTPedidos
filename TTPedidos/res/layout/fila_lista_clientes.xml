@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="40sp"
+    android:gravity="left|center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/fila_lista_clientes_codigo_cliente_textview"
+            style="@style/CodeFont_label_value"
+            android:layout_width="90dip"
+            android:layout_height="wrap_content"
+            android:gravity="left|center" />
+
+        <TextView
+            android:id="@+id/fila_lista_clientes_empresa_textview"
+            style="@style/CodeFont_label_value"
+            android:layout_width="250sp"
+            android:layout_height="wrap_content"
+            android:gravity="left|center" />
+
+        <TextView
+            android:id="@+id/fila_lista_clientes_contacto_textview"
+            style="@style/CodeFont_label_value"
+            android:layout_width="250sp"
+            android:layout_height="wrap_content"
+            android:gravity="left|center" />
+
+        <TextView
+            android:id="@+id/fila_lista_clientes_codigo_direccion_textview"
+            style="@style/CodeFont_label_value"
+            android:layout_width="350sp"
+            android:layout_height="wrap_content" />
+        
+        <TextView
+            android:id="@+id/fila_lista_clientes_telefono_textview"
+            style="@style/CodeFont_label_value"
+            android:layout_width="150sp"
+            android:layout_height="wrap_content" />
+        
+        <TextView
+            android:id="@+id/fila_lista_clientes_nit_textview"
+            style="@style/CodeFont_label_value"
+            android:layout_width="150sp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</LinearLayout>

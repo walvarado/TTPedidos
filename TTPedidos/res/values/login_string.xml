@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="login_titulo_textview">LOGIN</string>
+    <string name="login_entrar_button">ENTRAR</string>
+    <string name="login_cancelar_button">CANCELAR</string>
+    <string name="login_usuario_textview">USUARIO</string>
+    <string name="login_contrasenia_textview">CONTRASEÑA</string>
+    <string name="login_usuario_hint">USUARIO</string>
+    <string name="login_contrasenia_hint">CONTRASEÑA</string>
+    
+</resources>

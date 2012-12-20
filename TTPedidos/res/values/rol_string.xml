@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="rol_titulo_textview">LISTADO DE CLIENTES</string>
+    <string name="rol_semana_textview">SEMANA</string>
+    <string name="rol_dia_textview">DIA</string>
+    <string name="rol_mostrar_button">MOSTRAR</string>
+    <string name="rol_tabla_cliente_textview">CLIENTE</string>
+    <string name="rol_tabla_empresa_textview">EMPRESA</string>
+    <string name="rol_tabla_contacto_textview">CONTACTO</string>
+    <string name="rol_tabla_direccion_textview">DIRECCION</string>
+    <string name="rol_tabla_telefono_textview">TELEFONO</string>
+    <string name="rol_tabla_nit_textview">NIT</string>
+    <string name="rol_buscar_cliente_edittext">BUSCAR CLIENTE</string>
+    
+</resources>

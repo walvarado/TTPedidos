@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, MenuPrincipal!</string>
+    <string name="app_name">Pedidos</string>
+    <string name="estado_de_cuenta_cuentas_por_cobrar">CUENTAS POR COBRAR</string>
+
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/estado_de_cuenta_menu_guardar_pago" android:title="ENVIAR DATOS" android:icon="@drawable/enviar"></item>
+    <item android:id="@+id/estado_de_cuenta_menu_abono" android:title="ABONAR" android:icon="@drawable/abonar"></item>
+    
+
+</menu>

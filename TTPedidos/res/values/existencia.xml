@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="existencia_titulo_textview">EXISTENCIA</string>
+    <string name="existencia_articulo_textview">ARTICULO</string>
+    <string name="existencia_precio_textview">PRECIO</string>
+    <string name="existencia_existencia_textview">EXIST</string>
+    
+</resources>

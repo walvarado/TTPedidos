@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="clientes_visitados_tabla_cliente">CLIENTE</string>
+    <string name="clientes_visitados_tabla_total">TOTAL</string>
+    <string name="clientes_visitados_tabla_hora">HORA</string>
+    
+</resources>

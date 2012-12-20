@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="detalle_cliente_titulo_textview">DETALLE DE CLIENTE</string>
+    <string name="detalle_cliente_codigo_textview">CODIGO</string>
+    <string name="detalle_cliente_empresa_textview">EMPRESA</string>
+    <string name="detalle_cliente_contacto_textview">CONTACTO</string>
+    <string name="detalle_cliente_direccion_textview">DIRECCION</string>
+    <string name="detalle_cliente_telefono_textview">TELEFONO</string>
+    <string name="detalle_cliente_dias_credito_textview">D. CREDITO</string>
+    <string name="detalle_cliente_limite_textview">LIMITE</string>
+    <string name="detalle_cliente_saldo_textview">SALDO</string>
+    <string name="detalle_cliente_descuento_textview">DESCUENTO</string>
+</resources>

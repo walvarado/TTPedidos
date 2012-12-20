@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" android:background="@drawable/principal_background" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/detalle_cliente_titulo_textview" style="@style/CodeFont_title"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" android:background="@drawable/secundary_background">
+
+        <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:id="@+id/linearLayout15"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/detalle_cliente_datos_principales_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5sp"
+                    android:background="@drawable/values_background"
+                    android:orientation="horizontal" >
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout2"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" android:layout_width="90sp" android:gravity="right|center">
+
+                        <TextView
+                            android:id="@+id/textView2"
+                            style="@style/CodeFont_label"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/detalle_cliente_codigo_textview" />
+
+                        <TextView
+                            android:id="@+id/textView4"
+                            style="@style/CodeFont_label"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/detalle_cliente_empresa_textview" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout33"
+                        android:layout_width="1sp"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/vertical_separator"
+                        android:orientation="vertical" android:layout_marginLeft="5sp" android:layout_marginRight="5sp">
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout3"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" android:layout_width="match_parent" android:gravity="left|center">
+
+                        <TextView
+                            android:id="@+id/detalle_cliente_codigo_textview"
+                            style="@style/CodeFont_label_value"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                        <TextView
+                            android:id="@+id/detalle_cliente_empresa_textview"
+                            style="@style/CodeFont_label_value"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/detalle_cliente_datos_secundarios_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5sp"
+                    android:background="@drawable/values_background"
+                    android:orientation="horizontal" >
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout4"
+                        android:layout_width="90sp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" android:gravity="right|center">
+
+                        <TextView
+                            android:id="@+id/textView6"
+                            style="@style/CodeFont_label"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/detalle_cliente_contacto_textview" />
+
+                        <TextView
+                            android:id="@+id/textView8"
+                            style="@style/CodeFont_label"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/detalle_cliente_direccion_textview" />
+
+                        <TextView
+                            android:id="@+id/textView10"
+                            style="@style/CodeFont_label"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/detalle_cliente_telefono_textview" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout5"
+                        android:layout_width="1sp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical" android:background="@drawable/vertical_separator" android:layout_marginLeft="5sp" android:layout_marginRight="5sp">
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" android:gravity="left|center">
+
+                        <TextView
+                            android:id="@+id/detalle_cliente_contacto_textview"
+                            style="@style/CodeFont_label_value"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                        <TextView
+                            android:id="@+id/detalle_cliente_direccion_textview"
+                            style="@style/CodeFont_label_value"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                        <TextView
+                            android:id="@+id/detalle_cliente_telefono_textview"
+                            style="@style/CodeFont_label_value"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/detalle_cliente_datos_financieros_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5sp"
+                    android:background="@drawable/values_background"
+                    android:orientation="horizontal" >
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout7"
+                        android:layout_width="90sp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" android:gravity="right|center">
+                        
+                        <TextView
+                                android:id="@+id/textView12"
+                                style="@style/CodeFont_label"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/detalle_cliente_saldo_textview" />
+
+                        <TextView
+                            android:id="@+id/textView14"
+                            style="@style/CodeFont_label"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/detalle_cliente_dias_credito_textview" />
+
+                        <TextView
+                            android:id="@+id/textView16"
+                            style="@style/CodeFont_label"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/detalle_cliente_limite_textview" />
+
+                        <TextView
+                            android:id="@+id/textView18"
+                            style="@style/CodeFont_label"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/detalle_cliente_descuento_textview" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout8"
+                        android:layout_width="1sp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical" android:background="@drawable/vertical_separator" android:layout_marginLeft="5sp" android:layout_marginRight="5sp">
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" android:gravity="left|center">
+
+                        <TextView
+                            android:id="@+id/detalle_cliente_saldo_textview"
+                            style="@style/CodeFont_label_value"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                        <TextView
+                            android:id="@+id/detalle_cliente_dias_credito_textview"
+                            style="@style/CodeFont_label_value"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                        <TextView
+                            android:id="@+id/detalle_cliente_limite_textview"
+                            style="@style/CodeFont_label_value"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                        <TextView
+                            android:id="@+id/detalle_cliente_descuento_textview"
+                            style="@style/CodeFont_label_value"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</LinearLayout>

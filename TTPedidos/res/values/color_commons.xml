@@ -1,0 +1,7 @@
+
+    <resources>
+        <color name="color_title_textview">#CCFFFF</color>
+        <color name="color_label_textview">#000000</color>
+        <color name="color_label__dialog_textview">#FFFF7F</color>
+        <color name="off_white">#FFFFFF</color>
+    </resources>

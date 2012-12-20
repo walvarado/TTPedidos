@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="motivonocompra_title_textview">MOTIVO NO COMPRA</string>
+    
+    <string name="motivonocompra_motivo_textview">MOTIVO:</string>
+    <string name="motivonocompra_otro_textview">OTRO:</string>
+    
+    <string name="motivonocompra_enviar_button">ENVIAR</string>
+    <string name="motivonocompra_cancelar_button">CANCELAR</string>
+    
+</resources>

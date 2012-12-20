@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lista_pedidos_string_titulo">LISTA DE PEDIDOS</string>
+    <string name="lista_pedidos_string_codigo">CODIGO</string>
+    <string name="lista_pedidos_string_hora">HORA</string>
+    <string name="lista_pedidos_string_total">TOTAL</string>
+    <string name="lista_pedidos_string_pedido">PEDIDO</string>
+    
+</resources>

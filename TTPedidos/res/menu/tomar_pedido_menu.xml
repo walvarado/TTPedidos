@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item 
+        android:id="@+id/tomar_pedido_ver_pedido_opcion" 
+        android:title="VER PEDIDO"
+        android:icon="@drawable/pedidos"></item>
+    
+    <item 
+        android:id="@+id/tomar_pedido_agregar_opcion" 
+        android:title="AGREGAR ARTICULO"
+        android:icon="@drawable/agregar"></item>
+    
+    <item 
+        android:id="@+id/tomar_pedido_cancelar_opcion" 
+        android:title="CANCELAR PEDIDO"
+        android:icon="@drawable/salir"></item>
+    
+    <item 
+        android:id="@+id/tomar_pedido_enviar_opcion" 
+        android:title="ENVIAR"
+        android:icon="@drawable/enviar"></item>
+    
+    
+    
+
+</menu>

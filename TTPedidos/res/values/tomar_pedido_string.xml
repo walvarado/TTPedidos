@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tomar_pedido_titulo_textview">TOMAR PEDIDO</string>
+    <string name="tomar_pedido_total_textview">TOTAL:</string>
+    <string name="tomar_pedido_buscar_articulo_edittext">BUSCAR ARTICULO</string>
+    
+    <string name="tomar_pedido_id_producto_tabla_textview">PRODUCTO</string>
+    <string name="tomar_pedido_nombre_tabla_textview">NOMBRE</string>
+    <string name="tomar_pedido_precio_a_tabla_textview">PRECIO A</string>
+    <string name="tomar_pedido_precio_b_tabla_textview">PRECIO B</string>
+    <string name="tomar_pedido_precio_c_tabla_textview">PRECIO C</string>
+    <string name="tomar_pedido_precio_d_tabla_textview">PRECIO D</string>
+    <string name="tomar_pedido_precio_e_tabla_textview">PRECIO E</string>
+    
+    <string name="tomar_pedido_proveedor_tabla_textview">PROVEEDOR</string>
+    <string name="tomar_pedido_nombre_proveedor_tabla_textview">NOMBRE PROVEEDOR</string>
+    
+    <string name="tomar_pedido_codigo_tabla_textview">CODIGO</string>
+    <string name="tomar_pedido_categoria_tabla_textview">CATEGORIA</string>
+    <string name="tomar_pedido_unidades_tabla_textview">UNIDAD</string>
+    <string name="tomar_pedido_cajas_tabla_textview">CAJA</string>
+    <string name="tomar_pedido_precio_tabla_textview">PRECIO</string>
+    <string name="tomar_pedido_presentacion_tabla_textview">PRESENT</string>
+    <string name="tomar_pedido_existencia_tabla_textview">EXIS</string>
+    <string name="tomar_pedido_bonificacion_tabla_textview">BONI</string>
+    <string name="tomar_pedido_valor_tabla_textview">VALOR</string>
+    <string name="tomar_pedido_total_tabla_textview">TOTAL</string>
+    
+    <string name="tomar_pedido_dialog_cajas_textview">CAJAS</string>
+    <string name="tomar_pedido_dialog_unidades_textview">UNIDADES</string>
+    
+    
+</resources>

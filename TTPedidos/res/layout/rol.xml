@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" android:background="@drawable/principal_background">
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/rol_titulo_textview" style="@style/CodeFont_title"/>
+
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:id="@+id/linearLayout7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" android:background="@drawable/background_listview" android:layout_marginBottom="5sp">
+
+
+            <LinearLayout
+                android:id="@+id/linearLayout3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/rol_semana_textview"
+                    style="@style/CodeFont_label_value"
+                    android:layout_width="104sp"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    style="@style/CodeFont_label_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5sp"
+                    android:text="@string/rol_dia_textview" />
+
+                <TextView
+                    android:id="@+id/rol_dia_textview"
+                    style="@style/CodeFont_label_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout6"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <EditText
+                    android:id="@+id/rol_buscar_editText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/rol_buscar_cliente_edittext" android:layout_weight="1"/>
+
+                <ImageButton
+                    android:id="@+id/rol_borrar_imagebutton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50sp"
+                    android:src="@drawable/clear" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <HorizontalScrollView
+            android:id="@+id/horizontalScrollView1"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent" android:background="@drawable/background_listview">
+
+
+
+
+            <LinearLayout
+                android:id="@+id/linearLayout4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+
+                <LinearLayout
+                    android:id="@+id/linearLayout5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent">
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="90sp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/rol_tabla_cliente_textview" style="@style/CodeFont_label"/>
+
+
+                    <TextView
+                        android:id="@+id/textView5"
+                        style="@style/CodeFont_label"
+                        android:layout_width="250sp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/rol_tabla_empresa_textview" />
+
+
+                    <TextView
+                        android:id="@+id/textView6"
+                        style="@style/CodeFont_label"
+                        android:layout_width="250sp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/rol_tabla_contacto_textview" />
+                    
+                    <TextView
+                        android:id="@+id/textView"
+                        style="@style/CodeFont_label"
+                        android:layout_width="350sp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/rol_tabla_direccion_textview" />
+                    
+                    <TextView
+                        android:id="@+id/textView_telefono"
+                        style="@style/CodeFont_label"
+                        android:layout_width="150sp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/rol_tabla_telefono_textview" />
+                    
+                    <TextView
+                        android:id="@+id/textView_nit"
+                        style="@style/CodeFont_label"
+                        android:layout_width="150sp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/rol_tabla_nit_textview" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="1sp"
+                    android:background="@drawable/horizontal_separator" >
+                </LinearLayout>
+
+                <ListView
+                    android:id="@+id/rol_lista_clientes_listView"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" style="@style/ListView">
+                </ListView>
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+    </LinearLayout>
+
+</LinearLayout>

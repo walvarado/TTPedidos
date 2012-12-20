@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/menuprincipal_menu_pedido_opcion" android:title="PEDIDO"></item>
+    <item android:id="@+id/menuprincipal_menu_verpedidos_opcion" android:title="VER PEDIDOS"></item>
+    <item android:id="@+id/menuprincipal_menu_existencia_opcion" android:title="EXISTENCIA"></item>
+    <item android:id="@+id/menuprincipal_menu_precios_opcion" android:title="PRECIOS"></item>
+    <item android:id="@+id/menuprincipal_menu_cuentasxcobrar_opcion" android:title="CUENTAS X COBRAR"></item>
+    <item android:id="@+id/menuprincipal_menu_ventas_opcion" android:title="VENTAS"></item>
+    <item android:id="@+id/menuprincipal_menu_configurar_opcion" android:title="CONFIGURAR"></item>
+    <item android:id="@+id/menuprincipal_menu_sincronizar_opcion" android:title="SINCRONIZAR"></item>
+    
+
+</menu>
